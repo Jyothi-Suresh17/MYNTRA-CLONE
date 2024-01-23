@@ -1,0 +1,64 @@
+*{
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Montserrat', sans-serif;
+scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
+.navbar{
+  background-color: white;
+  
+}
+
+.navbar-nav{
+  margin-left: 5px;
+  font-size: large;
+  
+}
+
+.nav-link:hover{
+
+  text-shadow: 2px 4px 8px grey;
+
+}
+
+.d-flex{
+  margin-right: 300px;
+}
+.a{
+  margin-left:15px;
+  
+}
+.carousel-caption:hover{ text-shadow: 1px 2px 3px white;
+
+}
+
+.row{
+  cursor:pointer;
+}
+
+
+
+
+
+.rr5{
+  justify-content: space-around;
+}
+
+.fotnav{
+  display: flex;
+  
+}
+.online{
+  padding-left: 70px;
+}
+
+a{
+  text-decoration: none;
+}
