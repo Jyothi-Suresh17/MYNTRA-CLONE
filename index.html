@@ -37,52 +37,53 @@
 
 <body style="background-color: rgb(251, 251, 251);">
   <!-- navbar -->
-<div style="position: sticky; top: 0; z-index: 1;" class="divu">
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img
-          src="data:image/png;base64,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"
-          height="50px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto mx-2 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">MEN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">WOMEN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">KIDS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">HOME & LIVING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BEAUTY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">STUDIO</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search"><i class="fa-solid fa-magnifying-glass" style="color: #c0c0c0; margin-top:12px; padding-right: 3px;"></i>
-          <input class="form-control me-2 " style="width:450px; background-color: rgb(242, 240, 240);" type="search"
-            placeholder=" Search for Products,Brands and More" aria-label="Search">
-        </form>
-        <!-- nav icons -->
-        <p class="nav-icon">
-          <a href="#"><i class="fa-regular a fa-user" style="color: #000000;"></i></a>
-          <a href="#"> <i class="fa-regular a fa-heart" style="color: #000000;"></i></a>
-          <a href="#"><i class="fa-solid a fa-bag-shopping" style="color: #000000;"></i></a>
-        </p>
+  <div style="position: sticky; top: 0; z-index: 1;" class="divu">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABhlBMVEX////2HLPzVRL/kjGfNCj2AK/7Grn4G7b/lDL1AK3zVwD/lzKeNCWYGAD3VxDyUhCdLiCZNRbzTwDyRQCcKhuaNRqYKyebNR30HK+aIxKuW1P2Frr/jBz/kCr17OuZHATNKHjv4N+zZ2DFK2z/+vX+6/f8gyr/8ujOop7q19XDi4brH6OXKifYtbLeI5H/lifgxcP5dyT5esz8w+f7rN3Sqqe+gXulQjirMUCzL07BWCv0iDCnMjjhThinST/YJYjHXSy5LljkeS6vOiS3cWr6xbb4Zsb3Obn3Tb/7pNv7tuL2Zhv90Oz/tX76j9P+4fP+8Pm2TCrXbS3/dWO9QCD9e1TPRx3+gkvzUSv+iUPzUiX9eFj7bWz7ZXf6WYD1J5/5T4v1LJH1M4b1Onr0P2X0RlT0SkDSJ3/fRAD0Pm2yKACkLAT/48f0bjb/mkTdXjr3mXu7Rwvyh2n/wZX7z8P/qGT5sZ7/zaulHCusFDunVkO+QWT6ltW9Y3PcnK7kYqb/r3L6cgDwnZ16AAAOSUlEQVR4nO2c+WMTxxXHtbqFd41uee0g2caObSmiLgZjjmBITDCEhiOhR3qkSQ/auqQ0IUmPtGn/887s7GqvOb6zWjv9YT4/s6P96r35vvdmZAoFg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBkB/Dq+Px9trpLD2dns7CWi9x5Ljdruss7+S+9M6y47rO+jD3hbWYjrplj6YzznnpsdNkC+/mvLAW+055hru8kePKw9tusLCzneO6mqy75Qjda/kl1Fq3GS6ce3rA3O6WYzSbeUnccezowt+XxOWEQCKxnI/EnRFbz7bt7zNRgxTtD54+7fd9idfyWHnH2912b3Bw/aA1YBK/B7s5YgL7N24uLCyUntlMY3d5/pWH3sq9g8OlarU6udjy4uiceWHc9hJp8PTmQr1UKtXr9WdMons099JlajK9w2rNolQnt7wwdvN0aoCpl0it1Q8XSj4LN1kYR/NumXWyvfsfnbcCarW7PboBcsgODdaYwMOV5/VAIYnj034OW2ZMcrT/48WPazOJVvVii2bHmRpqme6N3qXqyk9ChaX6wh1PojuPoXrJ8fbi4k9XrIjE1dYZuw1NpHLrUtVa+VlEIcnUO2/NmU9D1y73314sxhX6Euf66rS4OmIRtJIKSwvP3povn243PYFJhSRRe2e4Fb1NSCOYVkgk9ufJJ7IJPYEphVb1LnFU94wK/7UmNRkqMK2wxPZixnzadajJFHkKrer1wVlVxX2yCXurnkAr5jS+ROqo3fUsK28QG/3IE8hRaFm37HLzdt5qOJDvuTy4ywTyFJbqT2lVvJphaWJg7zKBPIW1SetMSsaQRNA+CIpVtB7OFJZoKXH085QaWDHg43QMq4dEopP/WUKCI6JwsDRT+PO0wlL9Zj+L7w0Dl/E4X0spJIY6OP08pQW5dWn26SsfchSW6u/0M/jectN3GcZSWqFVO7BP2083qMtcrM4+cuUXP+AoZIaqmafT0WwTUs5xFU56mfJfA5Kj9vVQoLXyS65CYqi6eTqMbkKqcMJR6G3FU6371Eft6Jdb+xVfYb1E/XSqsfR6M7IJqcJPOBuRFX6tdTUpxzYhVfhrvkKyFd8q2yN8pCPf3UeLsRh+ylVoLdl22Tm1UZH0VIPIJqQKPxUo9LZiF5+GSW4UY5z7jK+wdqlV7u6fkkDSj9q34p9b+0Sk0NuKcPEau/EcJQp/w1fo5elpFcXlZrk1SXzuklBhvdQnUyS28loyR4nC36ZLvo9tn1JRJKUwkaOEFaFCryqCxYt8dwmBxXO/EymkeXo6ZtNN5ajFGy4ieXqjjxWvqZPMUdKY/l4YQ5qnp3Eute0mfJQp5DSmYRTJMIAMGc1UjhLaQoXWUu80zGZjxMlRYVMT5ikwDBOLTukjaSoUaNVe9E7BbPa7ts37MEHJ9/P0Tl9tNkMn1o8qSj7L0wM7986GuB0nR4nCz2QKaZ4qzeao+S5HoLDke59KRsW8T96Wm7F+NPwscUH0FJJBSnGisUNshiNQXBC9IF4coJUIhDRVPW4rbC1dkCmkeaowhds8m5EXRPqxJDmyHCMIudYMTmaSrNyUmCnLU+nx0XRk8/RJywUN4oue7eYokLxGuhT6CmXlouS14NKKUU6XQp+PJVlKtsctu5vjmQ23FPoKZeXCy9MbfYkpbLtcm/HSlDcDhwppZ5PbLLzt2nf5OaoqFyVvVLTF96ZOX6BPXi4sen5q51b2N0gI+TZjyeanME/7wjZy3OWVQl+hYH4KPphWjJwOiMddXjcTIJ4uZnlK5ij+ykNXYDOeQqmZehWjOf91rPcajl2WfJDKTL2iKHD2/abIZooqM6XfbV6D4n63dyjJF5WZllhR5H93QpuhnFcorK4OcundSAhviXMUMFMaRZvbu5EQSgQqzJRStvMI4n5XWCk8hIdRUYXEbNID3ZrD72ZmCiWdKfvow14OQSQh5Dak4cfIO1M/T59yyvNRU6ZP0Zl6VPs5BPGomzqbSaIW6JlNsjyvjcSVgikUHmTkGUQSQmGx9+HdsKWDeCcVxCOpzRT5d4jJIB7MHURipMJiHygErIaQPMddcySVwg+i0mpI7zZnEIcjWbH3PwWwGpKnz7pxO92X24ynUGU1OQRx3O2pv0fEaqjZuNEgDkcqfYjVkCD2oMMuEUNHHULyKReAjUjMJlYT9xU24ylUWs3cQSQdqTKEUFfjBfGGE/3u1CHkXnWng9iaozvdcJEQCi8R00EMu9Ox0ma8IKpczg9i5jlx20VCCFoNrRizEWN4gghErIbuxOxzImCkHhNMYanuBnPi+A+Ywj+q09Sq3rKzDvtTV22kHuoBylf4LBj2/wQJVA9QFNLYdDP+euEaGEJr5Uv5kWIo8YSd2FxtQwJJENVZ6h1KOQopfHYdaBcSjv/8BqjwHVa71MXep30MSKy96GU7O13ugSGsfLABKiwtnNCTlWkHFLj48mEFeIGanekAfM1pgSGsPCx8Diqs36S29xc0SduvHkMKVwejDLcY+65qqJgp3Cz8CNyIpYW/bhR20BAWO/cK0BssZbmKGo6Uc+GMQgHdiKX6m1cLX6AhLHa2Cu8hQaxeHOi3btuufLQPqVwuFLZQhaX6nSEcwvPFQuEBotCatPSrfhMOIdmGhQJWEKnC0nM4hO1XhQK0Ea3qXe3WbXd0AIbQamySfw9vxFIJrRRE4T2yMqSwNmnp/mZxWX7AFuU+/ff4RvzheVgh2YaFwmUsiAe2rSVwzRHdpqWg25CMIbBCWB+phnRlqCLS1k2vYIzdF7DCPe+Jz8E0fRMPId2GhcJmA3qNGvbDlhndAaiPKHziPQG2pvX3NZL0tbfyfUzh6kDHa6YjsGEjHLNHsI1YL+ECix12roNtRGtpoHMnvIxX+8oD/xlMoYbPtJ+zhfcwhfS3YLDAoYNWe1IrHvsPfYWkqYbPFNtf+yuDG3HSwr1m+wQuFbRlY3wDBLGu4TPFTnDBe4y9SPUA95pyHxbIagUFadx0fIa2bAyscaMFA/WandEqrnBv9hgyQekk6atgYaxxo2Mi2tfsn4CDIaERPgbUC60kfT1bGasXdMIAfzvsoIMhCeF74WPqelF/XyOGnXDlD8AgTlrYDLU7wn3GmysC1BtRI4TtL8KFH4EKq9exkrgOt6Szhoahmi90iiEd70PQjXiphxy6DTV8JmhoGKo01UvS6EUV2NYQr0FK4nSE+0zlSvRJxXyh1bEFDQ1jDyv6xGtcYNRfxn3GajyJPSpva7SStH0vtjIaQzIIK3/EP9TwmXiSqtqaBY0cjSdpATuPsmhfo07TaVfDZx7Gn5Wm6RxJCnffpK9pKS8T1/G5Ke6kFFmaZndSCqjQslojhcCNETw3xco9Q5amWk7aTu4mOE3vqtJ0928aIXyYfFqSpnpJ+kVyZThNL50o3PRIoxhW0o+L01QvSV+nVkbTtMb/GWQIehtjRQenEHHR1xmciu30ymjRr14cSXvTnb9rJOmj9PPiNNWa7l+lV0Z709rkRNqbbst+K5uEt4CwN9UanHhRQN+qeiD9/8b+oZGk3/IWEKWpzjZkJ8FJ0BGqtir73cKGTpJucpcQXNFkOoKKgU761kT2B6a7eJKmiyHjS0EQ9c9Jk4AHUmRKlLQ1Y7CHJzT2+EsIDqR0DvNTxZBxBe7cTsQK/4knaU20BrckZjjMT/EETdMlcb0YaiQp12co3M5N58bpfdHKcEm8Ljxy29U4Y+P7DIWbphpJyvUZymNwD9UO/yVa4t9wBy/yGQrvVFFnG4pHWPBU0Vq6LlrhuywHwSk4XqNRDXn9TAB2WUo7N0675QH8mjNA/Bo8r9EwGm4/EwAPGFf4zz+Ba0VFsAIj3dfgRtPm9jMBaF/DGwooaHPLnZuipG8w8BAKSgUDvPG2RDkG3vHQn+rJFaYKBmw04lLBQEf9RvJ8hYHWG9HzIYmNiBtN6nwmAZpmvMmugJuxKMtDEs0pbjSc0TfTOwqMAhQYXmwL2UgqRAUKq30AWDD4+wjt+2TVPiA+CMNWKqn2AfO8I5rj6hCmqj6YpOoQwkG8P8ezSAjjQYR/nwCEEN5LvEfB+asChDARRFAhEkL0NVPH8ZRvsUeVRsqIBBGNodJIGdnjgJVDwfFMikgQwXKoqoUB0G7ijgZQv4CGMFoTMYWqdiYEqYlzKERfI1ITMYVoCLEb4fSdCqhw9js9gFl3CilM3hjKOFa/KbepQRRyy4yIuo7CjsZ/UwIcZ3BDASgUHSHyCeZERKFstE+jNsWMCrFiH+IP+4jCjnq1COoGk5ulwBejmpoS+BUDUIjbDENZMbhOozwikJ9d8GBmo1aoYzMMldlwq4WqHaoccx5SwH7Br+xpoIY0xqbqZXkjsOqqHO1monh5qrzC181RiiIe3JdVfC0NXmYrYXmqiKDgKkaOIk+5z8i/FE0fDfjPG6oZf7GoXoWD3E/5O0paLrRqfRSyFeVW4/11UwYeSeq+4DRQZsFZNiFj48IF6fgkPyGVITn9FJy1Sc68G6KLAICtNy5IDmqyuEyAuIKLBgThE9lcJoBIFKbpPALF+0p4ZC36MUBDY6LgsVW/IDCZ7CnKEBiqeE/x25qG8L4X5qv/8oLYLmY0mRBuFGW3DrzxuaHdrHH45lzqr3/bHa15QgBXouTfb6buSCsCW9Jl63knpnGx83LODPX5NuWP8tPATSv+nVSONecJMa9fdtq+yMV25+VcFhPl0f34Kyt9/71G+EBFf5yQsfX1847Hy1f5xM/nQSXyypb6PPfx5QqjcT9XfYytrbW57SXNg/sN9soWaPuPHly+/MFD6HD7/4Une1ceXNnL3HkZDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgyIn/AdrUvr6/dwXfAAAAAElFTkSuQmCC"
+            height="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto mx-2 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">MEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WOMEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KIDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME & LIVING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BEAUTY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">STUDIO</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search"><i class="fa-solid fa-magnifying-glass"
+              style="color: #c0c0c0; margin-top:12px; padding-right: 3px;"></i>
+            <input class="form-control me-2 " style="width:450px; background-color: rgb(242, 240, 240);" type="search"
+              placeholder=" Search for Products,Brands and More" aria-label="Search">
+          </form>
+          <!-- nav icons -->
+          <p class="nav-icon">
+            <a href="#"><i class="fa-regular a fa-user" style="color: #000000;"></i></a>
+            <a href="#"> <i class="fa-regular a fa-heart" style="color: #000000;"></i></a>
+            <a href="#"><i class="fa-solid a fa-bag-shopping" style="color: #000000;"></i></a>
+          </p>
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
-  
+    </nav>
+  </div>
+
 
   <!-- banner carousal -->
 
@@ -240,7 +241,7 @@
             <div class="col-2"> <img src="https://media.s-bol.com/BPKA79BARBZn/550x363.jpg" class="d-block w-100"
                 alt="..."></div>
             <div class="col-2"> <img
-                src="https://lh3.googleusercontent.com/proxy/j_OmklKKnW6xt7rIX0377hFlMhrK4ZWsx1aUiUszUNvrd8gSrMyLXUxwCq9qcEppZk5SlItZm5CcQn4nTAxm9yyUTbCRt1tR6zffGbE738O2R0t7tyawt2Y"
+                src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/3854/5f44/7aa2/3ccc/e45e/e7fa/baae/abe5/59c1/7b20/7b20.jpg"
                 class="d-block w-100" alt="..."></div>
           </div>
 
@@ -288,664 +289,804 @@
     <h2><b>SHOP BY CATAGORY</b></h2>
   </div>
   <br>
-<div class="container">
-  <section class="catagory">
-    <div>
-      <div class="row rr1">
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://cdn.shopify.com/s/files/1/0549/1104/1688/files/3_1f8ec507-3eed-421f-8a2e-0d9a51a2ca68.jpg?v=1704546574); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(255, 0, 0, 0.133);  color: white; padding-left:10px ; padding-top: 10px;">
-              <h5>Ethnic Wear</h5>
-              <h4>50-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: white;">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzdWFsJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(195, 199, 195, 0.464);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-weight: bold;">Casual Wear</h5>
-              <h4>30-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1699374892-W4529R_03299_b2_s1_a1_m18_750x.jpg?crop=1.00xw:1xh;center,top&resize=980:*); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(162, 160, 160, 0.373);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5>Active wear Wear</h5>
-              <h4>Flat 60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://media.4rgos.it/i/Argos/tuc141492088-Black_R_Z001A?w=598&h=810&qlt=70); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(90, 89, 89, 0.318);  color: white; padding-left:10px ; padding-top:10px;">
-              <h5>Active Wear</h5>
-              <h4>50-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: white;">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://apisap.fabindia.com/medias/20129532-01.jpg?context=bWFzdGVyfGltYWdlc3wyNjQzMjd8aW1hZ2UvanBlZ3xhR05sTDJoa01DOHhOams1TkRFeE9URXlNamszTkM4eU1ERXlPVFV6TWw4d01TNXFjR2N8MjBhMWJmZjQwNTA4NWI0MjE2Nzg0OTZmOTc1ZGJjNGVjNTczMjA5NTU4MDlmYTRhZTA4MDUzMWMxMTdjYTI2NQ); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(123, 121, 121, 0.442);  color: white; padding-left:10px ; padding-top: 10px;">
-              <h5>Western Wear</h5>
-              <h4>50-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: white;">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://images.jdmagicbox.com/rep/b2b/mens-sportswear/mens-sportswear-9.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style=" width:100px; background-color: rgba(117, 114, 114, 0.411); color: rgb(0, 0, 0); padding-left:5px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Sports Wear</h5>
-              <h4>50-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div>
-      <div class="row rr2 mt-4">
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://www.brooklinen.com/cdn/shop/files/sub-category--womens-loungewear.jpg?v=15513328485493064881); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(130, 129, 129, 0.423);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Longue Wear</h5>
-              <h4>50-60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://image.uniqlo.com/UQ/ST3/jp/imagesother/women-innerwear/23fw/gl/img/lineup/hero_sp_02.jpg?20230623); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(118, 114, 114, 0.436);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Inner Wear</h5>
-              <h4>60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2278228/2022/4/19/2451411c-8346-4b8e-b228-e60351d536161650342959173-DressBerry-Women-Mauve-Analogue-Watch-1341650342959089-7.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(120, 117, 117, 0.375);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Watches</h5>
-              <h4>Upto 30-50% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://matural.in/cdn/shop/files/DSC07403.jpg?v=1701770362); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:160px; background-color: rgba(115, 112, 112, 0.342);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Men's Grooming</h5>
-              <h4>Upto 60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://d1f34ajap1v5tm.cloudfront.net/image/Types-of-Makeup-Every-Makeup-Lover-Should-Know.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:106px; background-color: rgba(109, 108, 108, 0.427);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Beauty and Makeup</h5>
-              <h4>New Year Offer</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://www.jiomart.com/images/product/original/rvepmm6e5z/whaou-kids-boys-cotton-printed-white-and-red-colour-top-shorts-set-boys-dress-baby-boy-dress-infant-dress-kids-wear-3-month-to-2-years-product-images-rvepmm6e5z-0-202310032020.jpg?); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(110, 107, 107, 0.404);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Kids Wear</h5>
-              <h4>50-50 Sale</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-      
-      </div>
-    </div>
-
-    <div>
-      <div class="row rr3 mt-4">
-
-        
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(110, 108, 108, 0.363);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Foot Wear</h5>
-              <h4>60% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://sepiastories.in/wp-content/uploads/2023/02/Paaduks-Women-Corda-Dark-Brown-Sandals-1.webp); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(105, 103, 103, 0.338);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Foot Wear</h5>
-              <h4>50-70% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://images.bestsellerclothing.in/data/JJ/dec-20-2022/296658201_g0.jpg?width=415&height=550&mode=fill&fill=blur&format=auto); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:170px; background-color: rgba(100, 99, 99, 0.341);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Bags,Belts and Wallets</h5>
-              <h4>Upto 50% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://i.pinimg.com/736x/2b/69/7f/2b697f710336f93c3687343e3716d5df.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(104, 102, 102, 0.379);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Office Wear</h5>
-              <h4>Upto 30% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://i.pinimg.com/originals/19/57/8d/19578d74cf1f194e09ac64f4b444838c.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(110, 108, 108, 0.399);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Ethnic Wear</h5>
-              <h4>50-60% Offer</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://hips.hearstapps.com/hmg-prod/images/home-decor-ideas-hbx080121inspoopener-009-1642185161-6528529c049e5.jpeg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(100, 98, 98, 0.419);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Home Decor</h5>
-              <h4>50-50 Sale</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-      
-
-      </div>
-    </div>
-
-    <div>
-      <div class="row rr4 mt-4">
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://assets.ajio.com/medias/sys_master/root/20230609/jc04/64827f64d55b7d0c635c483a/-473Wx593H-466243703-white-MODEL.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:133px; background-color: rgba(118, 116, 116, 0.425);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Handbags</h5>
-              <h4>70-80% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://i.pinimg.com/736x/70/e8/a0/70e8a0258a9bb5c0be5f10b5a7646733.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:170px; background-color: rgba(105, 104, 104, 0.4);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Headphones and Speakers</h5>
-              <h4>50-70% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://cdn.shyle.in/wp-content/uploads/2023/09/tattva-intricate-triple-layer-jhumka.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:130px; background-color: rgba(110, 109, 109, 0.451); color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Jewellery</h5>
-              <h4>Upto 50% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://mlm9ncni6ol1.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/f:best/https://confidence-style.com/wp-content/uploads/2022/05/Balimous-6381-scaled.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(104, 103, 103, 0.412);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">+Size Styles</h5>
-              <h4>30-50% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://i.pinimg.com/736x/a7/78/45/a77845e6b355d5999bb6ee7928447254.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(121, 119, 119, 0.4);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">+Size Wear's</h5>
-              <h4>30-60% Offer</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://goeyeweargroup.com/wp-content/uploads/2023/09/hick-post.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(106, 104, 104, 0.385);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Eyewear</h5>
-              <h4>30% Sale</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-      
-
-      </div>
-    </div>
-
-    <div>
-      <div class="row rr5 m-4">
-        <div class="col-1"></div>
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://www.net-a-porter.com/variants/images/45666037504967900/ou/w2000_q60.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(114, 112, 112, 0.433);  color: rgb(255, 249, 249); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">CasualStyles</h5>
-              <h4>40-50% Off</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://m.media-amazon.com/images/I/61w0ZjP9ISL._AC_UY1100_.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(100, 98, 98, 0.337);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">Trolleys and Luggage bags</h5>
-              <h4>30-60% Offer</h4>
-              <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-2 coll">
-          <div
-            style="background-image: url(https://i.pinimg.com/564x/25/14/0d/25140d8da655b9ea610c30cd9a0436bc.jpg); height: 300px; background-size: cover;"
-            class="indiv1">
-            <div style="width:100px; background-color: rgba(97, 96, 96, 0.34);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
-              <h5 style="font-size:x-large;">K-Beauty</h5>
-              <h4>30% Sale</h4>
-              <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
-                <h5>Shop Now</h5>
-              </button>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-1"></div>
-
-      </div>
-    </div>
-
-   
-
-
-  </section>
-</div>
-
-<br><br>
-
-<!-- footer -->
-
-<section class="footer">
   <div class="container">
-    <!-- Footer -->
-<footer class="bg-body-tertiary text-center">
-  <div class="fotnav ">
-    <div class="div d mt-4">
-      <p class="online">
-        <strong> ONLINE SHOPPING </strong>
-      </p>
-      <ul type="none">
-        <li><a href="#"  style="color: #1e1d1d;">Men</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Women</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Kids</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Home and Living</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Beauty</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Giftcards</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Myntra Insider</a></li>
-       
-      </ul>
-      <br>
-      <h6><b>Usefull Links</b></h6>
-      <ul type="none">
-        <li><a href="#"  style="color: #1e1d1d;">Blogs</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Careers</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Site Map</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">HCorporate Information</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Whitehat</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Cleartrip</a></li>
-        
-      </ul>
-    </div>
-    <div class="div d mt-4">
-      <p class="online">
-        <strong>CUSTOMER POLICIES </strong>
-      </p>
-      <ul type="none">
-        <li><a href="#"  style="color: #1e1d1d;">Contact Us</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">fAQ</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">T&C</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Terms of use</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Track Orders</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Shipping</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Cancellation</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Returns</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Privacy Policy</a></li>
-        <li><a href="#"  style="color: #1e1d1d;">Grevience Offer</a></li>
-       
-      </ul>
+    <section class="catagory">
+      <div>
+        <div class="row rr1">
 
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://cdn.shopify.com/s/files/1/0549/1104/1688/files/3_1f8ec507-3eed-421f-8a2e-0d9a51a2ca68.jpg?v=1704546574); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(255, 0, 0, 0.133);  color: white; padding-left:10px ; padding-top: 10px;">
+                <h5>Ethnic Wear</h5>
+                <h4>50-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: white;">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
 
-    </div>
-    <div class="div d mt-4">
-      <p class="online">
-        <strong>EXPERIENCE MYNTRA APP ON MOBILE </strong>
-      </p>
-      <div class="pe-4">
-       <button class="btn btn-dark"><i class="fa-brands fa-google-play" style="color: #ffffff;"></i> Playstore </button>
-        <button class="btn btn-dark"><i class="fa-brands fa-apple" style="color: #ffffff;"></i> Applestore</button>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzdWFsJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(195, 199, 195, 0.464);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-weight: bold;">Casual Wear</h5>
+                <h4>30-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class=" col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1699374892-W4529R_03299_b2_s1_a1_m18_750x.jpg?crop=1.00xw:1xh;center,top&resize=980:*); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(162, 160, 160, 0.373);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5>Active wear Wear</h5>
+                <h4>Flat 60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://media.4rgos.it/i/Argos/tuc141492088-Black_R_Z001A?w=598&h=810&qlt=70); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(90, 89, 89, 0.318);  color: white; padding-left:10px ; padding-top:10px;">
+                <h5>Active Wear</h5>
+                <h4>50-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: white;">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://apisap.fabindia.com/medias/20129532-01.jpg?context=bWFzdGVyfGltYWdlc3wyNjQzMjd8aW1hZ2UvanBlZ3xhR05sTDJoa01DOHhOams1TkRFeE9URXlNamszTkM4eU1ERXlPVFV6TWw4d01TNXFjR2N8MjBhMWJmZjQwNTA4NWI0MjE2Nzg0OTZmOTc1ZGJjNGVjNTczMjA5NTU4MDlmYTRhZTA4MDUzMWMxMTdjYTI2NQ); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(123, 121, 121, 0.442);  color: white; padding-left:10px ; padding-top: 10px;">
+                <h5>Western Wear</h5>
+                <h4>50-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: white;">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://images.jdmagicbox.com/rep/b2b/mens-sportswear/mens-sportswear-9.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style=" width:100px; background-color: rgba(117, 114, 114, 0.411); color: rgb(0, 0, 0); padding-left:5px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Sports Wear</h5>
+                <h4>50-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
       </div>
-      <!-- Section: Social media -->
-    <section class="mb-4">
-      <h4 style="padding-top: 10px;">Keep In Touch</h4>
 
-      <!-- Facebook -->
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+      <div>
+        <div class="row rr2 mt-4">
 
-      <!-- Twitter -->
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://www.brooklinen.com/cdn/shop/files/sub-category--womens-loungewear.jpg?v=15513328485493064881); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(130, 129, 129, 0.423);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Longue Wear</h5>
+                <h4>50-60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
 
-      <!-- Google -->
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
+            </div>
+          </div>
 
-      <!-- Instagram -->
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://image.uniqlo.com/UQ/ST3/jp/imagesother/women-innerwear/23fw/gl/img/lineup/hero_sp_02.jpg?20230623); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(118, 114, 114, 0.436);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Inner Wear</h5>
+                <h4>60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
 
-      
+            </div>
+          </div>
 
-      
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2278228/2022/4/19/2451411c-8346-4b8e-b228-e60351d536161650342959173-DressBerry-Women-Mauve-Analogue-Watch-1341650342959089-7.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(120, 117, 117, 0.375);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Watches</h5>
+                <h4>Upto 30-50% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://matural.in/cdn/shop/files/DSC07403.jpg?v=1701770362); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:160px; background-color: rgba(115, 112, 112, 0.342);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Men's Grooming</h5>
+                <h4>Upto 60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 coll">
+            <div
+              style="background-image: url(https://d1f34ajap1v5tm.cloudfront.net/image/Types-of-Makeup-Every-Makeup-Lover-Should-Know.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:106px; background-color: rgba(109, 108, 108, 0.427);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Beauty and Makeup</h5>
+                <h4>New Year Offer</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://www.jiomart.com/images/product/original/rvepmm6e5z/whaou-kids-boys-cotton-printed-white-and-red-colour-top-shorts-set-boys-dress-baby-boy-dress-infant-dress-kids-wear-3-month-to-2-years-product-images-rvepmm6e5z-0-202310032020.jpg?); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(110, 107, 107, 0.404);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Kids Wear</h5>
+                <h4>50-50 Sale</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div class="row rr3 mt-3">
+
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(110, 108, 108, 0.363);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Foot Wear</h5>
+                <h4>60% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://sepiastories.in/wp-content/uploads/2023/02/Paaduks-Women-Corda-Dark-Brown-Sandals-1.webp); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(105, 103, 103, 0.338);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Foot Wear</h5>
+                <h4>50-70% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://images.bestsellerclothing.in/data/JJ/dec-20-2022/296658201_g0.jpg?width=415&height=550&mode=fill&fill=blur&format=auto); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:170px; background-color: rgba(100, 99, 99, 0.341);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Bags,Belts and Wallets</h5>
+                <h4>Upto 50% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://i.pinimg.com/736x/2b/69/7f/2b697f710336f93c3687343e3716d5df.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(104, 102, 102, 0.379);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Office Wear</h5>
+                <h4>Upto 30% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://i.pinimg.com/originals/19/57/8d/19578d74cf1f194e09ac64f4b444838c.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(110, 108, 108, 0.399);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Ethnic Wear</h5>
+                <h4>50-60% Offer</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://hips.hearstapps.com/hmg-prod/images/home-decor-ideas-hbx080121inspoopener-009-1642185161-6528529c049e5.jpeg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(100, 98, 98, 0.419);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Home Decor</h5>
+                <h4>50-50 Sale</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div>
+        <div class="row rr4 mt-3">
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://assets.ajio.com/medias/sys_master/root/20230609/jc04/64827f64d55b7d0c635c483a/-473Wx593H-466243703-white-MODEL.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:133px; background-color: rgba(118, 116, 116, 0.425);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Handbags</h5>
+                <h4>70-80% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://i.pinimg.com/736x/70/e8/a0/70e8a0258a9bb5c0be5f10b5a7646733.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:170px; background-color: rgba(105, 104, 104, 0.4);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Headphones and Speakers</h5>
+                <h4>50-70% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 250, 250);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://southindiajewels.com/wp/wp-content/uploads/2016/05/Antique-chunky-beaded-necklace-queens-e1462420199948.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:130px; background-color: rgba(110, 109, 109, 0.451); color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Jewellery</h5>
+                <h4>Upto 50% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://mlm9ncni6ol1.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/f:best/https://confidence-style.com/wp-content/uploads/2022/05/Balimous-6381-scaled.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(104, 103, 103, 0.412);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">+Size Styles</h5>
+                <h4>30-50% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://i.pinimg.com/736x/a7/78/45/a77845e6b355d5999bb6ee7928447254.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(121, 119, 119, 0.4);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">+Size Wear's</h5>
+                <h4>30-60% Offer</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 my-2 col-md-2 coll">
+            <div
+              style="background-image: url(https://goeyeweargroup.com/wp-content/uploads/2023/09/hick-post.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(106, 104, 104, 0.385);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Eyewear</h5>
+                <h4>30% Sale</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div>
+        <div class="row rr5 m-3">
+          <div class="col-12 col-md-1"></div>
+          <div class="col-12 col-md-2 m-2 coll">
+            <div
+              style="background-image: url(https://www.net-a-porter.com/variants/images/45666037504967900/ou/w2000_q60.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(114, 112, 112, 0.433);  color: rgb(255, 249, 249); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">CasualStyles</h5>
+                <h4>40-50% Off</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2  coll">
+            <div
+              style="background-image: url(https://m.media-amazon.com/images/I/61w0ZjP9ISL._AC_UY1100_.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(100, 98, 98, 0.337);  color: rgb(255, 255, 255); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">Trolleys and Luggage bags</h5>
+                <h4>30-60% Offer</h4>
+                <button style="border: none; background-color: transparent; color: rgb(255, 255, 255);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 col-md-2 m-2coll">
+            <div
+              style="background-image: url(https://i.pinimg.com/564x/25/14/0d/25140d8da655b9ea610c30cd9a0436bc.jpg); height: 300px; background-size: cover;"
+              class="indiv1">
+              <div
+                style="width:100px; background-color: rgba(97, 96, 96, 0.34);  color: rgb(0, 0, 0); padding-left:10px ; padding-top:10px;">
+                <h5 style="font-size:x-large;">K-Beauty</h5>
+                <h4>30% Sale</h4>
+                <button style="border: none; background-color: transparent; color: rgb(0, 0, 0);">
+                  <h5>Shop Now</h5>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-1"></div>
+
+        </div>
+      </div>
+
+
+
+
     </section>
-    <!-- Section: Social media -->
-    </div>
 
-   
-  </div>
-  <!-- Grid container -->
-  <div class="container p-4">
-    
+    <!-- <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12"><footer class="bg-body-tertiary text-center">
+          <div class="fotnav ">
+            <div class="div d mt-4">
+              <p class="online">
+                <strong> ONLINE SHOPPING </strong>
+              </p>
+              <ul type="none">
+                <li><a href="#"  style="color: #1e1d1d;">Men</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Women</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Kids</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Home and Living</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Beauty</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Giftcards</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Myntra Insider</a></li>
+               
+              </ul>
+              <br>
+              <h6><b>Usefull Links</b></h6>
+              <ul type="none">
+                <li><a href="#"  style="color: #1e1d1d;">Blogs</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Careers</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Site Map</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">HCorporate Information</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Whitehat</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Cleartrip</a></li>
+                
+              </ul>
+            </div>
+            <div class="div d mt-4">
+              <p class="online">
+                <strong>CUSTOMER POLICIES </strong>
+              </p>
+              <ul type="none">
+                <li><a href="#"  style="color: #1e1d1d;">Contact Us</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">fAQ</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">T&C</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Terms of use</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Track Orders</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Shipping</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Cancellation</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Returns</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Privacy Policy</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Grevience Offer</a></li>
+               
+              </ul>
+        
+        
+            </div>
+            <div class="div d mt-4">
+              <p class="online">
+                <strong>EXPERIENCE MYNTRA APP ON MOBILE </strong>
+              </p>
+              <div class="pe-4">
+               <button class="btn btn-dark"><i class="fa-brands fa-google-play" style="color: #ffffff;"></i> Playstore </button>
+                <button class="btn btn-dark"><i class="fa-brands fa-apple" style="color: #ffffff;"></i> Applestore</button>
+              </div>
 
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Email Us</strong>
+            -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <footer class="bg-body-tertiary text-center">
+
+            <div class="row rowED">
+              <div class="col-6 col-md-4">
+                <div class="dv">
+                  <p class="online">
+                    <strong> ONLINE SHOPPING </strong>
+                  </p>
+                </div>
+                <ul type="none">
+                  <li><a href="#"  style="color: #1e1d1d;">Men</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Women</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Kids</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Home and Living</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Beauty</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Giftcards</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Myntra Insider</a></li>
+                 
+                </ul>
+
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="dv"></div>
+                <h6><b>Usefull Links</b></h6>
+              <ul type="none">
+                <li><a href="#"  style="color: #1e1d1d;">Blogs</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Careers</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Site Map</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">HCorporate Information</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Whitehat</a></li>
+                <li><a href="#"  style="color: #1e1d1d;">Cleartrip</a></li>
+                
+              </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="dv"><p class="online">
+                  <strong>CUSTOMER POLICIES </strong>
+                </p></div>
+                <ul type="none">
+                  <li><a href="#"  style="color: #1e1d1d;">Contact Us</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">fAQ</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">T&C</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Terms of use</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Track Orders</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Shipping</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Cancellation</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Returns</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Privacy Policy</a></li>
+                  <li><a href="#"  style="color: #1e1d1d;">Grevience Offer</a></li>
+                 
+                </ul>
+              </div>
+            </div>
+
+            <div class="row rowwww">
+              <div class="col-12">
+              <col-md-12>
+              <div class="div d mt-4">
+                <p class="online text-start">
+                  <strong>EXPERIENCE MYNTRA APP ON MOBILE </strong>
+                </p>
+                <div  class="pe-4  ">
+                 <button class="btn btn-dark"><i class="fa-brands fa-google-play" style="color: #ffffff;"></i> Playstore </button>
+                  <button class="btn btn-dark"><i class="fa-brands fa-apple" style="color: #ffffff;"></i> Applestore</button>
+                </div>
+            </col-md-12>
+            </div>
+            <section class="mb-4">
+              <h4 style="padding-top: 10px;">Keep In Touch</h4>
+
+              <!-- Facebook -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+
+
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+
+      </div>
+      <!-- Grid container -->
+      <div class="container ">
+
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Email Us</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" id="form5Example24" class="form-control" style="width: 250px;" />
+                  <label class="form-label" for="form5Example24">Email address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button data-mdb-ripple-init type="submit" class="btn btn-secondary mb-4">
+                  Go
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+            harum corrupti dicta, aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="container text-start w-50 " style="margin-left: 2px;">
+            <h6><b>Registered Office Address</b></h6>
+            <div>
+              Buildings Alyssa,
+              Begonia and Clover situated in Embassy Tech Village,
+              Outer Ring Road,
+              Devarabeesanahalli Village,
+              Varthur Hobli,
+              Bengaluru – 560103, India</div>
+          </div>
+          <hr style="color: black;">
+
+          <div style="text-align: start;">
+            <h6><b style="text-align: start;">ONLINE SHOPPING MADE EASY AT MYNTRA</b></h6>
+            <p>
+
+
+              If you would like to experience the best of online shopping for men, women and kids in India, you are at
+              the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array
+              of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It
+              is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings
+              you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the
+              comfort of your home and get your favourites delivered right to your doorstep.
             </p>
           </div>
-          <!--Grid column-->
+          <div style="text-align:start;">
+            <h6><b>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</b></h6>
+            <p>
 
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form5Example24" class="form-control" />
-              <label class="form-label" for="form5Example24">Email address</label>
-            </div>
+
+              Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and
+              functionality for men, women and kids. You will realise that the sky is the limit when it comes to the
+              types of outfits that you can purchase for different occasions.
+
+              Smart men’s clothing - At Myntra you will find myriad options in smart formal shirts and trousers, cool
+              T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts.
+              Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or
+              window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped
+              trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy
+              weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive
+              garments which would keep you confident in any outfit.
+              <br><br>
+              Trendy women’s clothing - Online shopping for women at Myntra is a mood-elevating experience. Look hip and
+              stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little
+              black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic
+              spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson,
+              embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis
+              and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and
+              lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our
+              salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.
+              <br><br>
+              Fashionable footwear - While clothes maketh the man, the type of footwear you wear reflects your
+              personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and
+              loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with
+              running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball,
+              and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops.
+              Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and
+              pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.
+              <br><br>
+              Stylish accessories - Myntra is one of the best online shopping sites for classy accessories that
+              perfectly complement your outfits. You can select smart analogue or digital watches and match them up with
+              belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether
+              you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you
+              many impressive options.
+              <br><br>
+              Fun and frolic - Online shopping for kids at Myntra is a complete joy. Your little princess is going to
+              love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking
+              up sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our
+              lineup of toys with which you can create memories to cherish.
+              <br><br>
+
+              Beauty begins here - You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty
+              and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic
+              products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience.
+              Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to
+              enhance your natural beauty.
+
+              Myntra is one of the best online shopping sites in India which could help transform your living spaces
+              completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware
+              to impress your guest. Wall decor, clocks, photo frames and artificial plants are sure to breathe life
+              into any corner of your home.
+            </p>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button data-mdb-ripple-init type="submit" class="btn btn-secondary mb-4">
-              Go   
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
-        harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="container text-start w-50 " style="margin-left: 2px;">
-        <h6><b>Registered Office Address</b></h6>
-        <div > 
-          Buildings Alyssa,
-          Begonia and Clover situated in Embassy Tech Village,
-          Outer Ring Road,
-          Devarabeesanahalli Village,
-          Varthur Hobli,
-          Bengaluru – 560103, India</div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
       </div>
-      <hr style="color: black;">
+      <!-- Grid container -->
 
-      <div style="text-align: start;">
-        <h6><b style="text-align: start;" >ONLINE SHOPPING MADE EASY AT MYNTRA</b></h6>
-        <p>
-          
-
-If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.
-        </p>
-      </div>
-      <div style="text-align:start;">
-        <h6><b>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</b></h6>
-        <p>
-          
-
-Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.
-
-    Smart men’s clothing - At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit.
-    <br><br>
-    Trendy women’s clothing - Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.
-    <br><br>
-    Fashionable footwear - While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.
-    <br><br>
-    Stylish accessories - Myntra is one of the best online shopping sites for classy accessories that perfectly complement your outfits. You can select smart analogue or digital watches and match them up with belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options.
-    <br><br>
-    Fun and frolic - Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our lineup of toys with which you can create memories to cherish.
-    <br><br>
-
-    Beauty begins here - You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural beauty.
-
-Myntra is one of the best online shopping sites in India which could help transform your living spaces completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to impress your guest. Wall decor, clocks, photo frames and artificial plants are sure to breathe life into any corner of your home.
-        </p>
-      </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
+      <!-- Copyright -->
+      <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div> -->
+      <!-- Copyright -->
+      </footer>
+    </div>
   </div>
-  <!-- Grid container -->
+  <!-- Footer -->
 
-  <!-- Copyright -->
-  <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2020 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div> -->
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+  <!-- Footer -->
   </div>
-</section>
-  
+  </section> 
+  </div>
+
+  <br><br>
+
+  <!-- footer -->
+
+
+
 
 </body>
 
